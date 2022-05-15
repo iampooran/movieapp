@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.moviedetail{
+    
+    background-image: linear-gradient(to right, rgba(31.5, 31.5, 31.5, 1) 150px, rgba(31.5, 31.5, 31.5, 0.84) 100%);
+    color: white;
+}
+
+.divide{
+    display: flex;
+    
+}
+
+.leftDetail{
+    margin-top: 80px;
+    flex: 3;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.rightDetail{
+    margin-top: 80px;
+    flex:12;
+    margin-bottom: 80px;
+}
+
+.movieDetailImg{
+    height:  100%;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    
+    
+}
+
+.detailTitle{
+    
+    margin-bottom: 10px;
+}
+
+.BackgroundImg{
+    position: fixed;
+    z-index: -999;
+    width: 1300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.addGap{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+
+.overviewDetails{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+.overview{
+    font-weight: 500;
+    font-size:20px;
+    font-weight: bold;
+    
+}
+
+.runtime{
+    font-weight: bold;
+}
+

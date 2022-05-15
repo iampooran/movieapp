@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+
+
+.nowplaying{
+    
+    margin-top: 20px;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+.hideIt{
+    display: none;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.addGapInBorder{
+    height: 0.004rem;
+    margin-top: 50px;
+    background: rgb(72, 72, 72);
+    
+    border: 0;
+}

@@ -1,0 +1,33 @@
+
+.container{
+        width: 84%;
+        padding-right: var(--bs-gutter-x, 0.75rem);
+        padding-left: var(--bs-gutter-x, 0.75rem);
+        margin-right: auto;
+        margin-left: auto;
+        
+        
+        
+}
+
+.footer{
+    
+    background-color: #2A2C32;
+    
+    color: white;
+    
+}
+.centerFooterSider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo{
+    width: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
